@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+	<variant frequency="1" name="Base">
+	  <animations>
+		<animation file="biped/dude.dae" name="Attack" speed="100"/>
+                <animation file="biped/inf_hoplite_walk.psa" name="Walk" speed="120"/>
+                <animation file="biped/inf_pack_walk.dae" name="Run" speed="120"/>
+                <animation file="biped/juggler.dae" name="Idle" speed="120"/>
+	  </animations>
+	  <mesh>skeletal/m_pants_tunic.dae</mesh>
+	  <props>
+		<prop actor="props/units/merry-go-round.xml" attachpoint="shoulders"/>
+		<prop actor="props/units/heads/hele_leonidas.xml" attachpoint="helmet"/>
+		<prop actor="props/units/heads/head_hele_h.xml" attachpoint="head"/>
+		<prop actor="props/units/cape_long_ragged.xml" attachpoint="shoulders"/>
+	  </props>
+	  <textures><texture file="skeletal/hele_leonidas.dds" name="baseTex"/></textures>
+	</variant>
+<!--	<variant frequency="1" name="Idle"/>
+-->
+	<variant frequency="1" name="Melee">
+	  <mesh>skeletal/f_tights.dae</mesh>
+	  <props>
+		<prop actor="props/units/heads/head_hele_h.xml" attachpoint="head"/>
+		<prop actor="props/units/shields/hele_round_leonidas.xml" attachpoint="shield"/>
+		<prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="r_hand"/>
+	  </props>
+	  <textures><texture file="skeletal/hele_leonidas.dds" name="baseTex"/></textures>
+	</variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

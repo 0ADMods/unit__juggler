@@ -1,0 +1,24 @@
+<skeletons>
+	<standard_skeleton title="merry-go-round skeleton" id="merry-go-round">
+		<bone name="root">
+			<bone name="ball1"></bone>
+			<bone name="ball2"></bone>
+			<bone name="ball3"></bone>
+		</bone>
+	</standard_skeleton>
+
+	<skeleton title="blender merry-go-round skeleton" target="merry-go-round">
+                <identifier>
+                	<root>merry-go-round</root>
+                </identifier>
+		<bone name="root"><target>root</target>
+			<bone name="ball1"><target>ball1</target>
+			</bone>
+			<bone name="ball2"><target>ball2</target>
+			</bone>
+			<bone name="ball3"><target>ball3</target>
+			</bone>
+		</bone>
+	</skeleton>
+
+</skeletons>

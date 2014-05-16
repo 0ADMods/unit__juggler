@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      	<mesh>props/ball.dae</mesh>
+      	<!--<decal width="4" depth="4" angle="0" offsetx="0" offsetz="0"/>-->
+	<textures>
+ 	  <texture file="props/ball_d.png" name="baseTex"/>
+	</textures>
+<!--  
+      <animations>
+        <animation file="props/merry-go-around.dae" name="Idle" speed="120"/>
+      </animations>
+      <props>
+        <prop file="actors/props/units/ball.xml" attachpoint="ball1" />
+        <prop file="actors/props/units/ball.xml" attachpoint="ball2" />
+        <prop file="actors/props/units/ball.xml" attachpoint="ball3" />
+
+      </props>
+-->
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
